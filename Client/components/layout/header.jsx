@@ -1,10 +1,11 @@
+import React from 'react'
 
-const Header = () => {
-    return (
-        <header>
-            <h1>Competitor Analyzer</h1>
-        </header>
-    )
+function Header() {
+  return (
+    <header>
+        {/* <h3 className='text-xl '>CompIntel</h3> */}
+    </header>
+  )
 }
 
-export default Header;
+export default Header

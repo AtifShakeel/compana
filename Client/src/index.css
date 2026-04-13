@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+
 :root {
   /* ===== CORE UI COLORS ===== */
   --primary: #1a1a2e;      /* Sidebar / dark navy */
@@ -37,12 +43,7 @@
   --font-heading: "DM Serif Display", serif;
 }
 
-/* ===== GLOBAL RESET ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /* ===== BODY BASE STYLE ===== */
 body {

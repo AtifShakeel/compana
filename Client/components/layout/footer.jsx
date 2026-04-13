@@ -1,10 +1,11 @@
+import React from 'react'
 
-const Footer = () => {
-    return (
-        <footer>
-            <p>&copy; 2024 Competitor Analyzer. All rights reserved.</p>
-        </footer>
-    )
+function Footer() {
+  return (
+    <footer>
+
+    </footer>
+  )
 }
 
-export default Footer;
+export default Footer
