@@ -8,6 +8,7 @@ import { createCompetitor, getCompetitor, updateCompetitor, deleteCompetitor } f
 import { createPage, getPages, getPageAnalytics, updatePage, deletePage, getPage } from "../controllers/page.controller.js";
 import { createSubscription, getSubscription, updateSubscription, deleteSubscription } from "../controllers/subscription.controller.js";
 import { createPlan, getPlan, getPlans, updatePlan, deletePlan } from "../controllers/plan.controller.js";
+import { buildTree } from "../controllers/utils.controller.js";
 
 // MIDDLEWARES
 import authenticate from "../middleware/authenticate.js";
@@ -60,6 +61,8 @@ router.get("/plan", getPlan);
 router.put("/plans", updatePlan);
 router.delete("/plans", deletePlan);
 
+// BUILD URL TREE
+router.post('/url-tree', buildTree);
 
 // HEALTH CHECK
 router.get("/health", (req, res) => {
