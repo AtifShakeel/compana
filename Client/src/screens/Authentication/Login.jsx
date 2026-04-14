@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import Button from '../../../components/ui/Button';
-import Input from '../../../components/ui/Input';
-import Checkbox from '../../../components/ui/Checkbox';
+import Button from "../../components/ui/Button";
+import Input from "../../components/ui/Input";
+import Checkbox from '../../components/ui/Checkbox';
 
 function Login() {
   const [formData, setFormData] = useState({
